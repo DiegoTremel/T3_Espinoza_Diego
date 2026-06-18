@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using T3_Espinoza_Diego.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+// Configuración de autenticación y autorización con ASP.NET Core Identity
 
 // Conexión a SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
