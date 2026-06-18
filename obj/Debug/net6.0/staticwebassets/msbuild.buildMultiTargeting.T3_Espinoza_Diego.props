@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\T3_Espinoza_Diego.props" />
+</Project>

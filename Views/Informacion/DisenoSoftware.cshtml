@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "Libros de Diseño de Software";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2 class="text-success mb-4">Libros de Diseño de Software</h2>
+
+    <p>
+        En esta sección se presentan libros relacionados con el diseño de software,
+        patrones de diseño, principios SOLID, refactorización y buenas prácticas para
+        crear soluciones reutilizables y mantenibles.
+    </p>
+
+    <div class="row mt-4">
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <img src="https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg"
+                     class="card-img-top"
+                     alt="Design Patterns"
+                     style="height:350px; object-fit:contain; padding:15px;" />
+
+                <div class="card-body">
+                    <h5 class="card-title">Design Patterns</h5>
+                    <p class="card-text">
+                        Libro clásico sobre patrones de diseño orientado a objetos.
+                        Presenta soluciones reutilizables para problemas comunes en
+                        el desarrollo de software.
+                    </p>
+
+                    <a href="https://openlibrary.org/isbn/9780201633610"
+                       target="_blank"
+                       class="btn btn-outline-success">
+                        Ver información
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <img src="https://covers.openlibrary.org/b/isbn/9780596007126-L.jpg"
+                     class="card-img-top"
+                     alt="Head First Design Patterns"
+                     style="height:350px; object-fit:contain; padding:15px;" />
+
+                <div class="card-body">
+                    <h5 class="card-title">Head First Design Patterns</h5>
+                    <p class="card-text">
+                        Explica los patrones de diseño de una forma visual y didáctica,
+                        facilitando el aprendizaje de patrones como Strategy, Observer,
+                        Factory, Decorator y otros.
+                    </p>
+
+                    <a href="https://openlibrary.org/isbn/9780596007126"
+                       target="_blank"
+                       class="btn btn-outline-success">
+                        Ver información
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <img src="https://covers.openlibrary.org/b/isbn/9780134757599-L.jpg"
+                     class="card-img-top"
+                     alt="Refactoring"
+                     style="height:350px; object-fit:contain; padding:15px;" />
+
+                <div class="card-body">
+                    <h5 class="card-title">Refactoring</h5>
+                    <p class="card-text">
+                        Libro enfocado en mejorar el diseño interno del código sin
+                        alterar su comportamiento externo, aplicando técnicas de
+                        refactorización.
+                    </p>
+
+                    <a href="https://openlibrary.org/isbn/9780134757599"
+                       target="_blank"
+                       class="btn btn-outline-success">
+                        Ver información
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h3 class="text-info mt-5">Video relacionado</h3>
+
+    <p>
+        Video introductorio sobre diseño de software, principios y buenas prácticas.
+    </p>
+
+    <div class="ratio ratio-16x9 mt-3 mb-5">
+        <iframe src="https://www.youtube.com/embed/qHuI_IWUkfAS"
+                title="Video de Diseño de Software"
+                allowfullscreen>
+        </iframe>
+    </div>
+</div>
